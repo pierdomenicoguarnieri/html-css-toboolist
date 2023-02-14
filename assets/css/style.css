@@ -1,0 +1,31 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #F6F8F9;
+}
+
+header{
+  height: 100px;
+  background-color: white;
+  margin-bottom: 50px;
+}
+
+header h1{
+  display: inline-block;
+  font-size: 65px;
+}
+
+.center{
+  line-height: 100px;
+  vertical-align: middle;
+}
+
+header img{
+  width: 75px;
+  margin: 0 0.5% 0 2%;
+}
