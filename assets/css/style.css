@@ -1,3 +1,4 @@
+/* General */
 *{
   margin: 0;
   padding: 0;
@@ -9,6 +10,7 @@ body{
   background-color: #F6F8F9;
 }
 
+/* Header */
 header{
   height: 100px;
   background-color: white;
@@ -20,16 +22,17 @@ header h1{
   font-size: 65px;
 }
 
-.center{
-  line-height: 100px;
-  vertical-align: middle;
-}
-
 header img{
   width: 75px;
   margin: 0 0.5% 0 2%;
 }
 
+.center{
+  line-height: 100px;
+  vertical-align: middle;
+}
+
+/* Main */
 main{
   width: 80%;
   max-width: 1080px;
@@ -54,10 +57,9 @@ main section{
 
 .button{
   display: inline-block;
-  width: 12%;
   margin: 15px 5px;
   text-align: center;
-  padding: 8px;
+  padding: 10px 13px;
   border-radius: 5px;
   font-weight: 550;
   font-size: 14px;
@@ -65,7 +67,6 @@ main section{
 
 .button.add-task{
   background-color: #46ACF0;
-  width: 10%;
   color: white;
 }
 
@@ -79,17 +80,17 @@ main section{
   border-bottom-right-radius: 10px;
 }
 
-.section-list{
+.section-task{
   margin-bottom: 30px;
   font-size: 20px;
 }
 
-.section-list.list-item{
+.section-task.task-item{
   font-size: 18px;
   margin: 30px 0;
 }
 
-.list-symbol{
+.task-symbol{
   display: inline-block;
   height: 20px;
   width: 20px;
@@ -100,17 +101,17 @@ main section{
   margin-right: 8px;
 }
 
-.list-symbol.checkmark{
+.task-symbol.checkmark{
   border: 1px solid green;
   color: green;
 }
 
-.list-symbol.cross{
+.task-symbol.cross{
   border: 1px solid red;
   color: red;
 }
 
-.list-tag{
+.task-tag{
   margin-left: 5px;
   font-size: 12px;
   font-weight: 600;
@@ -120,26 +121,26 @@ main section{
   text-align: center;
 }
 
-.list-tag.editorial{
+.task-tag.editorial{
   background-color: #20A9E5;
 }
 
-.list-tag.q1-goals{
+.task-tag.q1-goals{
   background-color: #9C72E4;
 }
 
-.list-tag.recruiting{
+.task-tag.recruiting{
   background-color: #64C0A9;
 }
 
-.list-tag.mobile{
+.task-tag.mobile{
   background-color: #F0992B;
 }
 
-.list-tag.website{
+.task-tag.website{
   background-color: #D863A1;
 }
 
-.list-tag.sales{
+.task-tag.sales{
   background-color: #B0C926;
 }
