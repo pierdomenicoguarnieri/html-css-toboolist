@@ -86,7 +86,7 @@ main section{
 
 .section-list.list-item{
   font-size: 18px;
-  margin: 10px 0;
+  margin: 30px 0;
 }
 
 .list-symbol{
@@ -97,6 +97,7 @@ main section{
   border-radius: 50%;
   text-align: center;
   vertical-align: middle;
+  margin-right: 8px;
 }
 
 .list-symbol.checkmark{
@@ -104,12 +105,16 @@ main section{
   color: green;
 }
 
+.list-symbol.cross{
+  border: 1px solid red;
+  color: red;
+}
+
 .list-tag{
-  width: 8%;
-  display: inline-block;
   margin-left: 5px;
-  font-size: 16px;
-  padding: 5px;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 8px 14px;
   color: white;
   border-radius: 15px;
   text-align: center;
@@ -117,4 +122,24 @@ main section{
 
 .list-tag.editorial{
   background-color: #20A9E5;
+}
+
+.list-tag.q1-goals{
+  background-color: #9C72E4;
+}
+
+.list-tag.recruiting{
+  background-color: #64C0A9;
+}
+
+.list-tag.mobile{
+  background-color: #F0992B;
+}
+
+.list-tag.website{
+  background-color: #D863A1;
+}
+
+.list-tag.sales{
+  background-color: #B0C926;
 }
