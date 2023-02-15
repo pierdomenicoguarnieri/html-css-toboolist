@@ -17,74 +17,67 @@
 
     <!-- Main -->
     <main>
+      <div class="container">
+        <section class="task-btn">
+          <button class="btn add-task">Add Task</button>
+          <button class="btn add-section">Add Section</button>
+        </section>
 
-      <!-- Prima sezione: Pulsanti "Add Task" e "Add Section" -->
-      <section class="task-buttons">
-        <div class="text-container">
-          <span class="button add-task">Add Task</span>
-          <span class="button add-section">Add Section</span>
-        </div>
-      </section>
-
-      <!-- Seconda Sezione: Daily Tasks -->
-      <section class="list">
-        <span>&nbsp;</span>
-        <div class="text-container">
-
-          <!-- Task List 1 - (New Task) -->
-          <div class="section-task">
-            <h2>&#9662; New Task</h2>
-            <div class="section-task task-item">
-              <span><span class="task-symbol checkmark">&checkmark;</span> Quarterly Newsletter</span>
-              <span class="task-tag editorial">Editorial</span>
-            </div>
-          </div>
-          
-          <!-- Task List 2 - (Today) -->
-          <div class="section-task">
-            <h2>&#9662; Today</h2>
-            <div class="section-task task-item">
-              <span><span class="task-symbol checkmark">&checkmark;</span>Recruting blog post</span>
-              <span class="task-tag editorial">Editorial</span>
-            </div>
-            <div class="section-task task-item">
-              <span><span class="task-symbol checkmark">&checkmark;</span>Mobile app launch</span>
-              <span class="task-tag q1-goals">Q1 Goals</span>
-            </div>
-            <div class="section-task task-item">
-              <span><span class="task-symbol cross">&#10005;</span>Interview John H.</span>
-              <span class="task-tag recruiting">Recruiting</span>
-            </div>
-            <div class="section-task task-item">
-              <span><span class="task-symbol checkmark">&checkmark;</span>Summit update to mobile storefronts</span>
-              <span class="task-tag mobile">Mobile</span>
-            </div>
-          </div>
-
-          <!-- Task List 3 - (Upcoming) -->
-          <div class="section-task">
-            <h2>&#9662; Upcoming</h2>
-            <div class="section-task task-item">
-              <div class="section-task task-item">
-                <span><span class="task-symbol cross">&#10005;</span>Schedule meeting with Alex</span>
-              </div>
-              <div class="section-task task-item">
-                <span><span class="task-symbol checkmark">&checkmark;</span>Homepage refresh</span>
-                <span class="task-tag website">Website</span>
-              </div>
-              <div class="section-task task-item">
-                <span><span class="task-symbol checkmark">	&checkmark;</span>Onboard new Sales team members</span>
-                <span class="task-tag sales">Sales</span>
-              </div>
-              <div class="section-task task-item">
-                <span><span class="task-symbol checkmark">&checkmark;</span>Review editor calendar</span>
-                <span class="task-tag editorial">Editorial</span>
-              </div>
-            </div>
-          </div>
-        </div>
-        <span>&nbsp;</span>
-      </section>
+        <section>
+          <ul class="task-list">
+            <li>
+              <h2 class="task-title">New Task</h2>
+              <ul>
+                <li class="task-item">
+                  <span class="task-item checked">Quarterly Newsletter</span>
+                  <span class="task-tag editorial">Editorial</span>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <h2 class="task-title">Today</h2>
+              <ul>
+                <li class="task-item">
+                  <span class="task-item checked">Recruting blog post</span>
+                  <span class="task-tag editorial">Editorial</span>
+                </li>
+                <li class="task-item">
+                  <span class="task-item checked">Mobile app launch</span>
+                  <span class="task-tag q1-goals">Q1 Goals</span>
+                </li>
+                <li class="task-item">
+                  <span class="task-item unchecked">Interview John H.</span>
+                  <span class="task-tag recruiting">Recruiting</span>
+                </li>
+                <li class="task-item">
+                  <span class="task-item checked">Summit update to mobile storefronts</span>
+                  <span class="task-tag mobile">Mobile</span>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <h2 class="task-title">Upcoming</h2>
+              <ul>
+                <li class="task-item">
+                  <span class="task-item unchecked">Schedule meeting with Alex</span>
+                </li>
+                <li class="task-item">
+                  <span class="task-item checked">Homepage refresh</span>
+                  <span class="task-tag website">Website</span>
+                </li>
+                <li class="task-item">
+                  <span class="task-item checked">Onboard new sales team members</span>
+                  <span class="task-tag sales">Sales</span>
+                </li>
+                <li class="task-item">
+                  <span class="task-item checked">Review editorial calendar</span>
+                  <span class="task-tag editorial">Editorial</span>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </section>
+      </div>
     </main>
   </body>
 </html>
