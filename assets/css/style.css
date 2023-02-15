@@ -12,23 +12,20 @@ body{
 
 /* Header */
 header{
-  height: 100px;
+  height: 70px;
   background-color: white;
   margin-bottom: 50px;
+  padding: 10px 20px;
 }
 
-header h1{
-  display: inline-block;
-  font-size: 65px;
+header span{
+  font-size: 45px;
+  font-weight: 900;
+  vertical-align: middle;
 }
 
 header img{
-  width: 75px;
-  margin: 0 0.5% 0 2%;
-}
-
-.center{
-  line-height: 100px;
+  height: 100%;
   vertical-align: middle;
 }
 
